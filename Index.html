@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styl.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="chlote">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="logo">
+          <img
+            src="img/you.svg"
+            width="50px"
+            height="30px"
+            style="margin: 0px; padding: 0px"
+          />
+        </div>
+
+        <div class="yt-txt">
+          <h1>YouTube</h1>
+          <span class="tm">TN</span>
+        </div>
+      </nav>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Rechercher" class="search-bar-input" />
+        <button class="search-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M14.8003 13.6003H14.1683L13.9443 13.3843C14.9043 12.2643 15.4003 10.7363 15.1283 9.1123C14.7523 6.8883 12.8963 5.11231 10.6563 4.84031C7.27231 4.42431 4.42431 7.27231 4.84031 10.6563C5.11231 12.8963 6.88831 14.7523 9.11231 15.1283C10.7363 15.4003 12.2643 14.9043 13.3843 13.9443L13.6003 14.1683V14.8003L17.0003 18.2003C17.3283 18.5283 17.8643 18.5283 18.1923 18.2003C18.5203 17.8723 18.5203 17.3363 18.1923 17.0083L14.8003 13.6003ZM10.0003 13.6003C8.0083 13.6003 6.4003 11.9923 6.4003 10.0003C6.4003 8.0083 8.0083 6.4003 10.0003 6.4003C11.9923 6.4003 13.6003 8.0083 13.6003 10.0003C13.6003 11.9923 11.9923 13.6003 10.0003 13.6003Z"
+              fill="#C3CAD9"
+            />
+          </svg>
+        </button>
+        <button class="micro-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M12 15.5C14.21 15.5 16 13.71 16 11.5V6C16 3.79 14.21 2 12 2C9.79 2 8 3.79 8 6V11.5C8 13.71 9.79 15.5 12 15.5Z"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M4.3501 9.65002V11.35C4.3501 15.57 7.7801 19 12.0001 19C16.2201 19 19.6501 15.57 19.6501 11.35V9.65002"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10.6101 6.43C11.5101 6.1 12.4901 6.1 13.3901 6.43"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M11.2 8.54995C11.73 8.40995 12.28 8.40995 12.81 8.54995"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M12 19V22"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="right-icons">
+        <button class="upload-icon">
+          <svg
+            fill="#ffffff"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="-48.5 -48.5 582.00 582.00"
+            xml:space="preserve"
+            width="23px"
+            height="23px"
+            stroke="#ffffff"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0">
+              <rect
+                x="-48.5"
+                y="-48.5"
+                width="582.00"
+                height="582.00"
+                rx="0"
+                fill=" #121212"
+                strokewidth="0"
+              ></rect>
+            </g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <rect y="448.107" width="485" height="30"></rect>
+                <polygon
+                  points="227.5,64.32 227.5,403.107 257.5,403.107 257.5,64.32 291.894,98.713 313.106,77.5 242.5,6.893 171.894,77.5 193.106,98.713 "
+                ></polygon>
+              </g>
+            </g>
+          </svg>
+        </button>
+        <button class="drendren-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="35"
+            style="margin-top: 18px"
+          >
+            <path
+              d="M9.02009 0.910156C5.71009 0.910156 3.02009 3.60016 3.02009 6.91016V9.80016C3.02009 10.4102 2.76009 11.3402 2.45009 11.8602L1.30009 13.7702C0.590088 14.9502 1.08009 16.2602 2.38009 16.7002C6.69009 18.1402 11.3401 18.1402 15.6501 16.7002C16.8601 16.3002 17.3901 14.8702 16.7301 13.7702L15.5801 11.8602C15.2801 11.3402 15.0201 10.4102 15.0201 9.80016V6.91016C15.0201 3.61016 12.3201 0.910156 9.02009 0.910156Z"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke="white"
+              style="color: white"
+            />
+          </svg>
+        </button>
+        <img src="img/p2.jpg" class="pic" />
+      </div>
+    </div>
+    <div class="side-bar">
+      <div class="home">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 48 48"
+          fill="white"
+          stroke="white"
+          c
+          style="color: #ffffff"
+        >
+          <path
+            d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z"
+            fill="white"
+            stroke="white"
+            style="background-color: #ffffff; color: #ffffff"
+          ></path>
+        </svg>
+        <p>Accueil</p>
+      </div>
+      <div class="home">
+        <img src="img/short.png" width="20" height="20" />
+        <p>Shorts</p>
+      </div>
+      <div class="home">
+        <img src="img/souscrire.png" width="20" height="20" />
+        <p>Abonnements</p>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="second-section">
+        <div class="vv">
+          <h1 class="title">
+            Vous
+            <p>&gt;</p>
+          </h1>
+        </div>
+        <div class="home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 48 48"
+            fill="white"
+            stroke="white"
+            c
+            style="color: #ffffff"
+          >
+            <path
+              d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z"
+              fill="white"
+              stroke="white"
+              style="background-color: #ffffff; color: #ffffff"
+            ></path>
+          </svg>
+          <p>Votre chaîne</p>
+        </div>
+        <div class="home">
+          <img src="img/short.png" width="20" height="20" />
+          <p>Historique</p>
+        </div>
+        <div class="home">
+          <img src="img/souscrire.png" width="20" height="20" />
+          <p>Playlists</p>
+        </div>
+        <div class="home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 48 48"
+            fill="white"
+            stroke="white"
+            c
+            style="color: #ffffff"
+          >
+            <path
+              d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z"
+              fill="white"
+              stroke="white"
+              style="background-color: #ffffff; color: #ffffff"
+            ></path>
+          </svg>
+          <p>Vos vidéos</p>
+        </div>
+        <div class="home">
+          <img src="img/short.png" width="20" height="20" />
+          <p>À regarder plus tard</p>
+        </div>
+        <div class="home">
+          <img src="img/souscrire.png" width="20" height="20" />
+          <p>Vidéos "J'aime"</p>
+        </div>
+        <div class="home">
+          <svg
+            fill="#ffffff"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="-48.5 -48.5 582.00 582.00"
+            xml:space="preserve"
+            width="23px"
+            height="23px"
+            stroke="#ffffff"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0">
+              <rect
+                x="-48.5"
+                y="-48.5"
+                width="582.00"
+                height="582.00"
+                rx="0"
+                fill=" #121212"
+                strokewidth="0"
+              ></rect>
+            </g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <rect y="448.107" width="485" height="30"></rect>
+                <polygon
+                  points="227.5,64.32 227.5,403.107 257.5,403.107 257.5,64.32 291.894,98.713 313.106,77.5 242.5,6.893 171.894,77.5 193.106,98.713 "
+                ></polygon>
+              </g>
+            </g>
+          </svg>
+          <p>Téléchargements</p>
+        </div>
+      </div>
+
+      <div class="line"></div>
+      <br />
+
+      <div class="third section">
+        <h1 class="title">Abonnements</h1>
+        <div class="home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 48 48"
+            fill="white"
+            stroke="white"
+            c
+            style="color: #ffffff"
+          >
+            <path
+              d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z"
+              fill="white"
+              stroke="white"
+              style="background-color: #ffffff; color: #ffffff"
+            ></path>
+          </svg>
+          <p>Votre chaîne</p>
+        </div>
+        <div class="home">
+          <img src="img/short.png" width="20" height="20" />
+          <p>Historique</p>
+        </div>
+        <div class="home">
+          <img src="img/souscrire.png" width="20" height="20" />
+          <p>Playlists</p>
+        </div>
+        <div class="home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 48 48"
+            fill="white"
+            stroke="white"
+            c
+            style="color: #ffffff"
+          >
+            <path
+              d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z"
+              fill="white"
+              stroke="white"
+              style="background-color: #ffffff; color: #ffffff"
+            ></path>
+          </svg>
+          <p>Vos vidéos</p>
+        </div>
+        <div class="home">
+          <img src="img/short.png" width="20" height="20" />
+          <p>À regarder plus tard</p>
+        </div>
+        <div class="home">
+          <img src="img/souscrire.png" width="20" height="20" />
+          <p>Vidéos "J'aime"</p>
+        </div>
+        <div class="home">
+          <svg
+            fill="#ffffff"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="-48.5 -48.5 582.00 582.00"
+            xml:space="preserve"
+            width="23px"
+            height="23px"
+            stroke="#ffffff"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0">
+              <rect
+                x="-48.5"
+                y="-48.5"
+                width="582.00"
+                height="582.00"
+                rx="0"
+                fill=" #121212"
+                strokewidth="0"
+              ></rect>
+            </g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <rect y="448.107" width="485" height="30"></rect>
+                <polygon
+                  points="227.5,64.32 227.5,403.107 257.5,403.107 257.5,64.32 291.894,98.713 313.106,77.5 242.5,6.893 171.894,77.5 193.106,98.713 "
+                ></polygon>
+              </g>
+            </g>
+          </svg>
+          <p>Téléchargements</p>
+        </div>
+      </div>
+      <br />
+
+      <div class="line"></div>
+      <br />
+
+      <div class="fourth-section">
+        <h1 class="title">Explorer</h1>
+        <div class="home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 48 48"
+            fill="white"
+            stroke="white"
+            c
+            style="color: #ffffff"
+          >
+            <path
+              d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z"
+              fill="white"
+              stroke="white"
+              style="background-color: #ffffff; color: #ffffff"
+            ></path>
+          </svg>
+          <p>Votre chaîne</p>
+        </div>
+        <div class="home">
+          <img src="img/short.png" width="20" height="20" />
+          <p>Historique</p>
+        </div>
+        <div class="home">
+          <img src="img/souscrire.png" width="20" height="20" />
+          <p>Playlists</p>
+        </div>
+        <div class="home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 48 48"
+            fill="white"
+            stroke="white"
+            c
+            style="color: #ffffff"
+          >
+            <path
+              d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z"
+              fill="white"
+              stroke="white"
+              style="background-color: #ffffff; color: #ffffff"
+            ></path>
+          </svg>
+          <p>Vos vidéos</p>
+        </div>
+      </div>
+      <br />
+
+      <div class="line"></div>
+      <br />
+
+      <div class="fourth-section">
+        <h1 class="title">Autres contenus YouTube</h1>
+        <div class="home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 48 48"
+            fill="white"
+            stroke="white"
+            c
+            style="color: #ffffff"
+          >
+            <path
+              d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z"
+              fill="white"
+              stroke="white"
+              style="background-color: #ffffff; color: #ffffff"
+            ></path>
+          </svg>
+          <p>Votre chaîne</p>
+        </div>
+        <div class="home">
+          <img src="img/short.png" width="20" height="20" />
+          <p>Historique</p>
+        </div>
+        <div class="home">
+          <img src="img/souscrire.png" width="20" height="20" />
+          <p>Playlists</p>
+        </div>
+        <div class="home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 48 48"
+            fill="white"
+            stroke="white"
+            c
+            style="color: #ffffff"
+          >
+            <path
+              d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z"
+              fill="white"
+              stroke="white"
+              style="background-color: #ffffff; color: #ffffff"
+            ></path>
+          </svg>
+          <p>Vos vidéos</p>
+        </div>
+        <div class="home">
+          <img src="img/short.png" width="20" height="20" />
+          <p>À regarder plus tard</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-grid-container">
+      <div class="video-card">
+        <img src="img/film1_.jpg" class="thumbnail" />
+        <div class="video-info">
+          <h3 style="color: #ffffff;">Video Title 1 : Mad Max-Part 2</h3>
+          <p>Channel Name • 1M views • 2 days ago</p>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <img src="img/film2.jpg" class="thumbnail" />
+        <div class="video-info">
+          <h3>Video Title 2 : Kraven </h3>
+          <p>Channel Name • 500K views • 1 week ago</p>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <img src="img/film3.jpg"  class="thumbnail" />
+        <div class="video-info">
+          <h3 style="color: #ffffff;">Video Title 3 : Dune - Part 1</h3>
+          <p>Channel Name • 300K views • 3 days ago</p>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <img src="img/film5.jpg"class="thumbnail" />
+        <div class="video-info">
+          <h3 style="color: #ffffff;">Video Title 4 : Venom : The Last Dance
+          </h3>
+          <p>Channel Name • 1M views • 2 days ago</p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
